@@ -9,5 +9,5 @@ for (i = 1; i < 257; i++) {
 const highlight = document.querySelectorAll("#squares");
 
 highlight.forEach(el => el.addEventListener("mouseover", function(){
-    (this).classList.toggle("active");
+    (this).classList.add("active");
 }));
