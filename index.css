@@ -21,6 +21,6 @@ body{
     background-color: blueviolet;
 }
 
-#container>div:hover {
+#container>div:hover, #container>div.active {
     background-color: orangered;
 }
