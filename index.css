@@ -24,3 +24,12 @@ body{
 #container>div:hover, #container>div.active {
     background-color: orangered;
 }
+
+button {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
