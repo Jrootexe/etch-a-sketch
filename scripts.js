@@ -11,3 +11,11 @@ const highlight = document.querySelectorAll("#squares");
 highlight.forEach(el => el.addEventListener("mouseover", function(){
     (this).classList.add("active");
 }));
+
+const btn = document.querySelector(".btn");
+
+btn.addEventListener("click", function(){
+    prompt("How many squares per side?");
+
+
+})
