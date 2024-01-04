@@ -15,7 +15,8 @@ highlight.forEach(el => el.addEventListener("mouseover", function(){
 const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", function(){
-    prompt("How many squares per side?");
+    document.getElementById("container").textContent = '';
+    /*let gridSize = prompt("How many squares per side?");*/
 
 
 })
