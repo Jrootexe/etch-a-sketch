@@ -22,5 +22,11 @@ btn.addEventListener("click", function(){
         div.id = "squares";
         container.appendChild(div);
     }
+    
+    const highlight = document.querySelectorAll("#squares");
+
+    highlight.forEach(el => el.addEventListener("mouseover", function(){
+        (this).classList.add("active");
+    }));
 
 })
