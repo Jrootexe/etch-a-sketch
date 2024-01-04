@@ -16,7 +16,11 @@ const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", function(){
     document.getElementById("container").textContent = '';
-    /*let gridSize = prompt("How many squares per side?");*/
-
+    let gridSize = prompt("How many squares per side?");
+    for (g = 1; g < gridSize; g++) {
+        const div = document.createElement("div");
+        div.id = "squares";
+        container.appendChild(div);
+    }
 
 })
